@@ -9,7 +9,7 @@ def teacher_interface():
         print("")
         print("1 - Прсмотреть домашние задания")
         print("2 - Изменить домашние задания")
-        print("9 - Выход")
+        print("0 - Выход")
         choice = input("Введите команду: ")
         print("")
         if choice == "1":
@@ -29,6 +29,6 @@ def teacher_interface():
                     print("Введена некорректная дисциплина")
             else:
                 print("Дисциплину нужно ввести цифрой");
-        if choice == "9":
+        if choice == "0":
             break
 

@@ -9,7 +9,7 @@ def admin_interface():
         print("")
         print("1 - Прсмотреть список учётных записей")
         print("2 - Изменить роль")
-        print("9 - Выход")
+        print("0 - Выход")
         choice = input("Введите команду: ")
         print("")
         if choice == "1":
@@ -42,5 +42,5 @@ def admin_interface():
                     print("Введена некорректный логин")
             else:
                 print("Номер логина нужно ввести цифрой")
-        if choice == "9":
+        if choice == "0":
             break

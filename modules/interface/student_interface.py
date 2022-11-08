@@ -7,7 +7,7 @@ def student_interface():
         print("Меню студента")
         print("")
         print("1 - Прсмотреть домашние задания")
-        print("9 - Выход")
+        print("0 - Выход")
         choise = input("Введите команду: ")
         if choise == "1":
             print(
@@ -16,5 +16,5 @@ def student_interface():
                     "all",
                 )
             )
-        if choise == "9":
+        if choise == "0":
             break

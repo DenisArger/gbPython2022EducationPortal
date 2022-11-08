@@ -10,7 +10,7 @@ def login_interface():
         print("")
         print("1 - Войти")
         print("2 - Зарегистрироваться")
-        print("9 - Выход")
+        print("0 - Выход")
         choise = input("Введите команду: ")
         if choise == "1":
             login_name = input("Введите логин: ")
@@ -20,5 +20,5 @@ def login_interface():
                 print("Такой учётной записи не сущесствует")
         if choise == "2":
             register()
-        if choise == "9":
+        if choise == "0":
             break
